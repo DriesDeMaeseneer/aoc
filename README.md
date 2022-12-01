@@ -11,9 +11,33 @@ When cheating, you only cheat yourself.
 
 [Support AOC](https://adventofcode.com/2022/support)
 
+## Languages I will use:
+- ada
+- algol
+- assembly
+- bash
+- c
+- c++
+- go
+- haskell
+- java
+- javascript
+- kotlin
+- lua
+- perl
+- php
+- python
+- r
+- ruby
+- rust
+- scratch
+- sql
+- typescript
+- zig
+
 ## Completed:
 
-- [x] Day 1.
+- [x] Day 1 - rust.
 - [ ] Day 2.
 - [ ] Day 3.
 - [ ] Day 4.
