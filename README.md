@@ -1,5 +1,14 @@
 # aoc
-advent of code 
+My advent of code code. 
+
+## Before you read my code!
+Solve the challenge yourself, that is the best way to learn!
+When cheating, you only cheat yourself.
+
+## Resources:
+
+[AOC](https://adventofcode.com/2022/)
+[Support AOC](https://adventofcode.com/2022/support)
 
 ## Completed:
 
