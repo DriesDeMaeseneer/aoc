@@ -1,5 +1,5 @@
 [package]
-name = "aoc_2022"
+name = "aoc_2022_day_1"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,5 +12,3 @@ name = "day_1_benchmark"
 harness = false
 
 [dependencies]
-# rayon = "1.5.3"
-# ndarray = "0.15.6"
