@@ -1,4 +1,4 @@
-use std::io::BufRead;
+use std::{collections::BinaryHeap, io::BufRead};
 
 use crate::tools::get_file;
 
@@ -9,7 +9,8 @@ pub fn max_calories(file_name: &str, top: u32) -> u32 {
     let mut total_calories_to_return: u32 = 0;
     let mut current_elf: u32 = 0;
     let mut current_total_calories = 0;
-    let mut calorie_collection = Vec::new();
+    // I use a binary heap to avoid sorting the vector.
+    let mut calorie_collection = BinaryHeap::new();
 
     // parse each line.
     reader.lines().map(Result::unwrap).for_each(|line| {
@@ -25,12 +26,11 @@ pub fn max_calories(file_name: &str, top: u32) -> u32 {
             current_total_calories += calories;
         }
     });
-    // sort elf calories.
-    calorie_collection.sort();
-    // largest in the front.
-    calorie_collection.reverse();
-    for i in 0..top {
-        total_calories_to_return += calorie_collection[i as usize];
+    // pop |top| entries from the binaryheap.
+    for _ in 0..top {
+        total_calories_to_return += calorie_collection
+            .pop()
+            .expect("Not enough entries on the heap.");
     }
     total_calories_to_return
 }

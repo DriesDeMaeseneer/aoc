@@ -40,7 +40,7 @@ When cheating, you only cheat yourself.
 
 ## Solution time:
 
-- Day 1: 127.42 µs.
+- Day 1: 123.37 µs.
 - Day 2: - .
 - Day 3: - .
 - Day 4: - .
