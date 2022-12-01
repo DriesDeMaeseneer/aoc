@@ -8,6 +8,7 @@ When cheating, you only cheat yourself.
 ## Resources:
 
 [AOC](https://adventofcode.com/2022/)
+
 [Support AOC](https://adventofcode.com/2022/support)
 
 ## Completed:
