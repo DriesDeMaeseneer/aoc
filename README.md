@@ -36,7 +36,7 @@ When cheating, you only cheat yourself.
 ## Completed:
 
 - [x] Day 1 - rust.
-- [ ] Day 2 - bash.
+- [x] Day 2 - bash.
 - [ ] Day 3.
 - [ ] Day 4.
 - [ ] Day 5.
@@ -63,8 +63,8 @@ When cheating, you only cheat yourself.
 
 ## Solution time:
 
-- Day 1: 123.37 µs.
-- Day 2: - .
+- Day 1: +-20 minutes.
+- Day 2: +-120 minutes.
 - Day 3: - .
 - Day 4: - .
 - Day 5: - .
