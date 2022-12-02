@@ -27,7 +27,6 @@ When cheating, you only cheat yourself.
 - php
 - python
 - r
-- ruby
 - scratch
 - sql
 - typescript
@@ -37,7 +36,7 @@ When cheating, you only cheat yourself.
 
 - [x] Day 1 - rust.
 - [x] Day 2 - bash.
-- [ ] Day 3.
+- [ ] Day 3 - ruby.
 - [ ] Day 4.
 - [ ] Day 5.
 - [ ] Day 6.
