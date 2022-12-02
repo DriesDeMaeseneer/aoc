@@ -15,7 +15,6 @@ When cheating, you only cheat yourself.
 - ada
 - algol
 - assembly
-- bash
 - c
 - c++
 - go
@@ -29,7 +28,6 @@ When cheating, you only cheat yourself.
 - python
 - r
 - ruby
-- rust
 - scratch
 - sql
 - typescript
@@ -38,7 +36,7 @@ When cheating, you only cheat yourself.
 ## Completed:
 
 - [x] Day 1 - rust.
-- [ ] Day 2.
+- [ ] Day 2 - bash.
 - [ ] Day 3.
 - [ ] Day 4.
 - [ ] Day 5.
