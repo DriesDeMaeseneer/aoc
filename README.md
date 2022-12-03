@@ -36,8 +36,8 @@ When cheating, you only cheat yourself.
 
 - [x] Day 1 - rust.
 - [x] Day 2 - bash.
-- [ ] Day 3 - ruby.
-- [ ] Day 4.
+- [x] Day 3 - ruby.
+- [ ] Day 4 - r.
 - [ ] Day 5.
 - [ ] Day 6.
 - [ ] Day 7.
@@ -64,7 +64,7 @@ When cheating, you only cheat yourself.
 
 - Day 1: +-20 minutes.
 - Day 2: +-120 minutes.
-- Day 3: - .
+- Day 3: +-40 minutes .
 - Day 4: - .
 - Day 5: - .
 - Day 6: - .
