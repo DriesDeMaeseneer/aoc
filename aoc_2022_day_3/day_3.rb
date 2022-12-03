@@ -4,22 +4,31 @@
 require 'set'
 
 total_found_characters = Array.new
+group_string_buffer = Array.new
+
 file_name = "day_3.input"
 
+enumeration = 0
 File::foreach(file_name) { |line| 
-  search_chars = line[0..(line.size/2)-1]
-  find_chars = line[line.size/2..]
+  if not enumeration == 0 and enumeration.modulo(3) == 0 
+    # perform all operations needed to find badge.
+    # loop over first string
+    found_characters = Set.new
 
-  found_characters = Set.new
+    group_string_buffer[0].each_char { |character|
+      if group_string_buffer[1].count(character) >=1 and group_string_buffer[2].count(character) >= 1 and not found_characters.include?(character)
+        found_characters << character
+      end
+    }
 
-  search_chars.each_char { |character|
-    if find_chars.count(character) >= 1 and not found_characters.include?(character)
-      found_characters << character
+    group_string_buffer.clear
+
+    for character in found_characters.to_a 
+        total_found_characters << character
     end
-  }
-  for character in found_characters.to_a 
-      total_found_characters << character
   end
+  group_string_buffer << line
+  enumeration += 1
 }
 
 total_score = 0
