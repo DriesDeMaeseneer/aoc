@@ -11,54 +11,33 @@ When cheating, you only cheat yourself.
 
 [Support AOC](https://adventofcode.com/2022/support)
 
-## Languages I will use:
-- ada
-- algol
-- assembly
-- c
-- c++
-- go
-- haskell
-- java
-- javascript
-- kotlin
-- lua
-- perl
-- php
-- python
-- r
-- scratch
-- sql
-- typescript
-- zig
-
 ## Completed:
 
 - [x] Day 1 - rust.
 - [x] Day 2 - bash.
 - [x] Day 3 - ruby.
 - [ ] Day 4 - r.
-- [ ] Day 5.
-- [ ] Day 6.
-- [ ] Day 7.
-- [ ] Day 8.
-- [ ] Day 9.
-- [ ] Day 10.
-- [ ] Day 11.
-- [ ] Day 12.
-- [ ] Day 13.
-- [ ] Day 14.
-- [ ] Day 15.
-- [ ] Day 16.
-- [ ] Day 17.
-- [ ] Day 18.
-- [ ] Day 19.
-- [ ] Day 20.
-- [ ] Day 21.
-- [ ] Day 22.
-- [ ] Day 23.
-- [ ] Day 24.
-- [ ] Day 25.
+- [ ] Day 5 - python.
+- [ ] Day 6 - algol.
+- [ ] Day 7 - c.
+- [ ] Day 8 - go.
+- [ ] Day 9 - sql.
+- [ ] Day 10 - assembly.
+- [ ] Day 11 - lua.
+- [ ] Day 12 - zig.
+- [ ] Day 13 - kotlin.
+- [ ] Day 14 - haskell.
+- [ ] Day 15 - ada.
+- [ ] Day 16 - scratch.
+- [ ] Day 17 - php.
+- [ ] Day 18 - javascript.
+- [ ] Day 19 - typescript.
+- [ ] Day 20 - java.
+- [ ] Day 21 - c++.
+- [ ] Day 22 - perl.
+- [ ] Day 23 - .
+- [ ] Day 24 - .
+- [ ] Day 25 - .
 
 ## Solution time:
 
