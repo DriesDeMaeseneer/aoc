@@ -17,7 +17,7 @@ When cheating, you only cheat yourself.
 - [x] Day 2 - bash.
 - [x] Day 3 - ruby.
 - [x] Day 4 - r.
-- [ ] Day 5 - python.
+- [x] Day 5 - python.
 - [ ] Day 6 - algol.
 - [ ] Day 7 - c.
 - [ ] Day 8 - go.
@@ -45,7 +45,7 @@ When cheating, you only cheat yourself.
 - Day 2: +-120 minutes.
 - Day 3: +-40 minutes.
 - Day 4: +-80 minutes.
-- Day 5: - .
+- Day 5: +-15 minutes.
 - Day 6: - .
 - Day 7: - .
 - Day 8: - .
