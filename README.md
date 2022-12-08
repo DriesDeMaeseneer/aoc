@@ -20,7 +20,7 @@ When cheating, you only cheat yourself.
 - [x] Day 5 - python.
 - [x] Day 6 - algol.
 - [x] Day 7 - c.
-- [ ] Day 8 - go.
+- [x] Day 8 - go.
 - [ ] Day 9 - sql.
 - [ ] Day 10 - assembly.
 - [ ] Day 11 - lua.
@@ -48,7 +48,7 @@ When cheating, you only cheat yourself.
 - Day 5: +-15 minutes.
 - Day 6: +-150 minutes.
 - Day 7: +-150 minutes.
-- Day 8: - .
+- Day 8: +-120 minutes.
 - Day 9: - .
 - Day 10: - .
 - Day 11: - .
