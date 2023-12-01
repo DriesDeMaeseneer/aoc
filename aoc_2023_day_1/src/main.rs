@@ -1,4 +1,4 @@
 
 fn main() {
-    println!("Hello, world!");
+    println!("🎅: Hello Advent of Code!");
 }
