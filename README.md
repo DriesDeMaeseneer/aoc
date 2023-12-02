@@ -14,7 +14,7 @@ When cheating, you only cheat yourself.
 ## Completed:
 
 - [x] Day 1  - Rust solution .
-- [ ] Day 2  - .
+- [x] Day 2  - Rust solution .
 - [ ] Day 3  - .
 - [ ] Day 4  - .
 - [ ] Day 5  - .
