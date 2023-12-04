@@ -15,8 +15,8 @@ When cheating, you only cheat yourself.
 
 - [x] Day 1  - Rust solution .
 - [x] Day 2  - Rust solution .
-- [x] Day 3  - Solution accidentaly deleted.
-- [ ] Day 4  - .
+- [x] Day 3  - Solution accidentaly deleted(also used wrong input).
+- [x] Day 4  - Rust solution.
 - [ ] Day 5  - .
 - [ ] Day 6  - .
 - [ ] Day 7  - .
