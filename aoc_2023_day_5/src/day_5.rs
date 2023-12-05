@@ -41,14 +41,53 @@ fn solve(path: &str) -> usize {
     return *pre_current_locs.iter().min().unwrap() as usize;
 }
 
+fn min_of_range(path: &str, start: u64, amt: u64) -> usize {
+    let reader = get_file(path);
+    let mut current_locs: Vec<u64> = Vec::new();
+    let mut pre_current_locs: Vec<u64> = Vec::new();
+
+    for i in start..start+amt{
+        current_locs.push(i as u64);
+    } 
+    pre_current_locs = current_locs.clone();
+    reader.lines().map(Result::unwrap).for_each(|line| {
+        if line.chars().next().is_none(){
+        } else if line.chars().nth(0).unwrap().is_numeric(){
+            let cur_line_split: Vec<u64> = line.split_whitespace().map(|item| item.parse::<u64>().unwrap()).collect();
+
+            let output_start:u64 = *cur_line_split.get(0).unwrap();
+            let input_start: u64 = *cur_line_split.get(1).unwrap();
+            let range_amt:u64 = *cur_line_split.get(2).unwrap();
+
+            for (ith, cur_loc) in current_locs.iter().enumerate() {
+                if *cur_loc >= input_start && *cur_loc < input_start+range_amt {
+                    if let Some(loc) = pre_current_locs.get_mut(ith) {
+                        *loc = output_start + (*cur_loc - input_start);
+                    }
+                }
+            }
+        } else {
+            current_locs = pre_current_locs.clone();
+        }
+    });
+    *pre_current_locs.iter().min().unwrap() as usize
+}
+
 fn solve2(path: &str) -> usize {
     let reader = get_file(path);
-    let mut total: usize = 0;
+    let mut result = usize::MAX;
+    let mut seeds = Vec::new();
 
-    reader.lines().map(Result::unwrap).enumerate().for_each(|(ith, line)| {
+    reader.lines().map(Result::unwrap).for_each(|line| {
+        if line.chars().next().is_none(){
+        } else if line.starts_with("seeds: "){
+            seeds =  line.split(": ").nth(1).unwrap().split_whitespace().map(|item| item.parse::<u64>().expect("could not parse number of seeds")).collect::<Vec<u64>>();
+        }
     });
-
-    total
+    for chunk in seeds.chunks(2){
+        result = result.min(min_of_range(path, chunk[0], chunk[1]));
+    }
+    result
 }
 
 #[cfg(test)]
@@ -60,7 +99,7 @@ mod tests {
     }
     #[test]
     pub fn example2() {
-        // assert_eq!(30, solve2("e_day_5.input"));
+        assert_eq!(46, solve2("e_day_5.input"));
     }
     #[test]
     pub fn puzzle() {
@@ -68,6 +107,6 @@ mod tests {
     }
     #[test]
     pub fn puzzle2() {
-        // println!("TOTAL_2 = {}", solve2("day_5.input"));
+        println!("TOTAL_2 = {}", solve2("day_5.input"));
     }
 }
