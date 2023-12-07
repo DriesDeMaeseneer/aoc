@@ -18,8 +18,8 @@ When cheating, you only cheat yourself.
 - [x] Day 3  - Solution accidentaly deleted(also used wrong input).
 - [x] Day 4  - Rust solution.
 - [x] Day 5  - Rust solution, still working on a faster version.
-- [x] Day 6  - Rust solution.
-- [ ] Day 7  - .
+- [x] Day 6  - Rust solution and partial zig.
+- [x] Day 7  - Rust part 1.
 - [ ] Day 8  - .
 - [ ] Day 9  - .
 - [ ] Day 10 - .
