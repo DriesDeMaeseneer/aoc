@@ -26,7 +26,7 @@ When cheating, you only cheat yourself.
 - [ ] Day 11 - .
 - [ ] Day 12 - .
 - [ ] Day 13 - .
-- [ ] Day 14 - .
+- [x] Day 14 - Rust part 1.
 - [ ] Day 15 - .
 - [ ] Day 16 - .
 - [ ] Day 17 - .
