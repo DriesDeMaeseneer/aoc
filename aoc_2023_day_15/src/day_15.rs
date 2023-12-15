@@ -16,7 +16,7 @@ fn hash(str: &str) -> usize {
     for chr in str.chars(){
         current_value += chr as usize;
         current_value *= 17;
-        current_value %= 256;
+        current_value &= 0xFF;
     }
     current_value
 }
