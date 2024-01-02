@@ -19,7 +19,7 @@ When cheating, you only cheat yourself.
 - [x] Day 4  - Rust solution.
 - [x] Day 5  - Rust solution, still working on a faster version.
 - [x] Day 6  - Rust solution and partial zig.
-- [x] Day 7  - Rust part 1.
+- [x] Day 7  - Rust solution.
 - [ ] Day 8  - .
 - [ ] Day 9  - .
 - [ ] Day 10 - .
